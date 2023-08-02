@@ -6,7 +6,7 @@
 
 ***AINTERVIEW***
 <br>최고의 AI면접 서비스 지금 시작하세요!
-#####  URL: []() 
+#####  URL: [AINTERVIEW](**https://ainterview.site/**) 
 </div>
 
 
@@ -38,7 +38,7 @@
 </div>
 
 
-## 💽  ERD
+## 💾 ERD
 
 <!--<img src="https://github.com/A-Interview/.github/assets/132477328/cd7cba29-4bbe-4194-8da0-4387eba5b13d">-->
 ![AInterview-ERD](https://github.com/A-Interview/.github/assets/132477328/cd7cba29-4bbe-4194-8da0-4387eba5b13d)
@@ -64,47 +64,45 @@ Grafana + Prometheus
 
 **Django** |**Node exporter**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215696724-ce0fcb3a-c58b-4bf0-a9ef-294371062d80.png" width="7000px">|<img src = "https://user-images.githubusercontent.com/87285536/215696530-b83e18d4-ea00-4005-9fa8-e35a2882df89.png" width="1700px">
+<img src = "https://github.com/A-Interview/.github/assets/132477328/c83cafc5-5fe0-4b89-a135-7a1d3dce90b0" width="1700px">|<img src = "https://github.com/A-Interview/.github/assets/132477328/cf69b9c0-75a8-4afe-a516-cd1cadc138de" width="7000px">
 
 
-**cAdvisor** |**ELK**
+**cAdvisor** | **cAdvisor**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215696300-9b67a4ed-7748-44fc-b096-4ba8ef661da5.png" width="1700px">
+<img src = "https://github.com/A-Interview/.github/assets/132477328/95583237-488e-4f79-831a-0fc9cb589c25" width="7000px"> | <img src = "https://github.com/A-Interview/.github/assets/132477328/bc251edb-eec3-4827-87ff-85e593735c67" width="7000px">
 
 
 
-## 🚀  How to Start
+## 🚀 How to Start
 ```
-$ git clone --recursive [https://github.com/SVTeamK-ROLLIT/docker.git](https://github.com/A-Interview/Docker.git)]
-$ cd fronted
-$ yarn 
+$ git clone --recursive [https://github.com/A-Interview/Docker.git]
 ```
-### env setting
+### env setting in the Settings folder 
 * settings/.env
 ```
 # backend env
 GPT_API_KEY=
 
-DJANGO_SECRET_KEY=''
+DJANGO_SECRET_KEY=
 MYSQL_DATABASE=
 MYSQL_NAME=
 MYSQL_USER=
 MYSQL_PASSWORD=
 MYSQL_ROOT_PASSWORD=
-PORT=
-MYSQL_HOST=""
+MYSQL_PORT=
+MYSQL_HOST=
 
 # AWS env
-MY_AWS_ACCESS_KEY =""
+MY_AWS_ACCESS_KEY =
 MY_AWS_SECRET_ACCESS_KEY =
-AWS_STORAGE_BUCKET_NAME = ""
-AWS_S3_CUSTOM_DOMAIN = 
-FILE_URL=""
+AWS_STORAGE_BUCKET_NAME = 
+AWS_S3_CUSTOM_DOMAIN =
+FILE_URL=
 
 ```
 ### Run Docker
 ```
-$docker compose -f docker-compose.prod.yaml -f docker-compose.elk.yaml up --build
+$docker compose up --build
 ```
 
 

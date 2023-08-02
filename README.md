@@ -60,22 +60,30 @@
 
 
 ## 📈 Monitoring
-Grafana + Prometheus
+Grafana & Prometheus
 
-**Django** |**Node exporter**
+**Django** |**Node exporter** |
 -----|-----
-<img src = "https://github.com/A-Interview/.github/assets/132477328/c83cafc5-5fe0-4b89-a135-7a1d3dce90b0" width="1700px">|<img src = "https://github.com/A-Interview/.github/assets/132477328/cf69b9c0-75a8-4afe-a516-cd1cadc138de" width="7000px">
+<img src = "https://github.com/A-Interview/.github/assets/132477328/c83cafc5-5fe0-4b89-a135-7a1d3dce90b0" width=100%>|<img src = "https://github.com/A-Interview/.github/assets/132477328/cf69b9c0-75a8-4afe-a516-cd1cadc138de" width=100%>
 
-
-**cAdvisor** | **cAdvisor**
------|-----
-<img src = "https://github.com/A-Interview/.github/assets/132477328/95583237-488e-4f79-831a-0fc9cb589c25" width="7000px"> | <img src = "https://github.com/A-Interview/.github/assets/132477328/bc251edb-eec3-4827-87ff-85e593735c67" width="7000px">
+<table>
+  <tr>
+    <td colspan="2" align="center">cAdvisor</td>
+  </tr>
+  <tr>
+    <td><img src = "https://github.com/A-Interview/.github/assets/132477328/95583237-488e-4f79-831a-0fc9cb589c25" width=100%></td>
+    <td><img src = "https://github.com/A-Interview/.github/assets/132477328/bc251edb-eec3-4827-87ff-85e593735c67" width=100%></td>
+  </tr>
+</table>
+<br/>
+- **Prometheus**, **Grafana**
+- **node-exporter**
 
 
 
 ## 🚀 How to Start
 ```
-$ git clone --recursive [https://github.com/A-Interview/Docker.git]
+$ git clone --recursive https://github.com/A-Interview/Docker.git
 ```
 ### env setting in the Settings folder 
 * settings/.env
@@ -105,8 +113,104 @@ FILE_URL=
 $docker compose up --build
 ```
 
+## 📂 Directory Structure
+<details>
+<summary>자세히 보기</summary>
+<div>
+  ```bash
+📦backend
+ ┣ 📂ainterview
+ ┃ ┣ 📂__pycache__
+ ┃ ┣ 📜__init__.py
+ ┃ ┣ 📜asgi.py
+ ┃ ┣ 📜celery.py
+ ┃ ┣ 📜settings.py
+ ┃ ┣ 📜urls.py
+ ┃ ┗ 📜wsgi.py
+ ┣ 📂forms
+ ┃ ┣ 📂__pycache__
+ ┃ ┣ 📂migrations
+ ┃ ┣ 📜__init__.py
+ ┃ ┣ 📜admin.py
+ ┃ ┣ 📜apps.py
+ ┃ ┣ 📜models.py
+ ┃ ┣ 📜serializers.py
+ ┃ ┣ 📜tests.py
+ ┃ ┣ 📜urls.py
+ ┃ ┗ 📜views.py
+ ┣ 📂speak_to_chat
+ ┃ ┣ 📂__pycache__
+ ┃ ┣ 📂migrations
+ ┃ ┣ 📜__init__.py
+ ┃ ┣ 📜apps.py
+ ┃ ┣ 📜interview_consumer.py
+ ┃ ┣ 📜models.py
+ ┃ ┣ 📜routing.py
+ ┃ ┣ 📜serializers.py
+ ┃ ┣ 📜tasks.py
+ ┃ ┣ 📜urls.py
+ ┃ ┗ 📜views.py
+ ┣ 📂users
+ ┃ ┣ 📂__pycache__
+ ┃ ┣ 📂migrations
+ ┃ ┣ 📜__init__.py
+ ┃ ┣ 📜admin.py
+ ┃ ┣ 📜apps.py
+ ┃ ┣ 📜models.py
+ ┃ ┣ 📜serializers.py
+ ┃ ┣ 📜tests.py
+ ┃ ┣ 📜urls.py
+ ┃ ┗ 📜views.py
+ ┣ 📜.git
+ ┣ 📜.gitignore
+ ┣ 📜Pipfile
+ ┣ 📜Pipfile.lock
+ ┣ 📜dockerfile
+ ┣ 📜manage.py
+ ┣ 📜requirements.txt
+ ┗ 📜storage.py
+📦frontend
+ ┣ 📂public
+ ┣ 📂src
+ ┃ ┣ 📂assets
+ ┃ ┣ 📂components
+ ┃ ┣ 📂lottie
+ ┃ ┣ 📂pages
+ ┃ ┃ ┣ 📜ApplyFormPickerPage.tsx
+ ┃ ┃ ┣ 📜InterviewProgressPage.tsx
+ ┃ ┃ ┣ 📜InterviewResultPage.tsx
+ ┃ ┃ ┣ 📜LoginPage.tsx
+ ┃ ┃ ┣ 📜MainPage.tsx
+ ┃ ┃ ┣ 📜MyPage.tsx
+ ┃ ┃ ┣ 📜SignupPage.tsx
+ ┃ ┃ ┣ 📜StandBy.tsx
+ ┃ ┃ ┗ 📜WatingPage.tsx
+ ┃ ┣ 📂state
+ ┃ ┃ ┗ 📜Atom.ts
+ ┃ ┣ 📂style
+ ┃ ┃ ┗ 📜GlobalStyle.tsx
+ ┃ ┣ 📂types
+ ┃ ┃ ┗ 📜index.d.ts
+ ┃ ┣ 📜App.tsx
+ ┃ ┣ 📜index.css
+ ┃ ┗ 📜index.tsx
+ ┣ 📜.eslintrc.json
+ ┣ 📜.git
+ ┣ 📜.gitignore
+ ┣ 📜Dockerfile
+ ┣ 📜Dockerfile.prod
+ ┣ 📜README.md
+ ┣ 📜nginx.conf
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┗ 📜tsconfig.json
+📦 settings
+ ┗ 📜.env
+  ```
+</div>
+</details>
 
-## 👨‍👩‍👧‍👧 Team
+## 👨‍👩‍👧‍👧 Member
 
 | Name    | <center>한석진</center> | <center>박준서</center> | <center>김미영</center> | <center>유현석</center> | <center>송유림</center> | <center>조형준</center> | <center>김가을</center>
 | ------- | --------------------------------------------- | ------------------------------------- | -------------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |

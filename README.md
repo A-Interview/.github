@@ -6,7 +6,7 @@
 
 ***AINTERVIEW***
 <br>최고의 AI면접 서비스 지금 시작하세요!
-###  URL: [~~www.rollit5.link~~]() 2023.08 End
+#####  URL: []() 
 </div>
 
 
@@ -19,12 +19,8 @@
 
 
 
-
-
 ## 💻 System Architechture
-
-<image src="">
-
+![시스템 아키텍쳐](https://github.com/A-Interview/.github/assets/132477328/dbd8e833-6c4e-4732-9860-11d4f84d1f8e)
 
 
 
@@ -44,8 +40,8 @@
 
 ## 💽  ERD
 
-<!--<image src="https://user-images.githubusercontent.com/103196409/214505660-fb892945-ffd9-4a9f-8626-0e2f24182674.png">-->
-![RollIT-ERD](https://user-images.githubusercontent.com/87285536/215340380-42a76006-03a1-44bb-949a-c6debd94da13.png)
+<!--<img src="https://github.com/A-Interview/.github/assets/132477328/cd7cba29-4bbe-4194-8da0-4387eba5b13d">-->
+![AInterview-ERD](https://github.com/A-Interview/.github/assets/132477328/cd7cba29-4bbe-4194-8da0-4387eba5b13d)
 - https://www.erdcloud.com/d/x4WbrcTfqujMLmvtY
 
 
@@ -54,10 +50,10 @@
 <!-- <details> -->
 <summary>swagger</summary>
 <div markdown="1">
-
-![papers_swagger](https://user-images.githubusercontent.com/103196409/215758674-b285655d-25f3-44a2-9f6e-e90b4aa22777.png)
-![photos_swagger](https://user-images.githubusercontent.com/103196409/214562857-220bd0ef-682c-4d77-a9af-55085cdb19d0.png)
-![users_swagger](https://user-images.githubusercontent.com/103196409/215338656-e777d43c-edfe-4cfd-9c63-9dea218b3736.png)
+  
+<img width="1307" alt="form gptanswer API" src="https://github.com/A-Interview/.github/assets/132477328/bdc6168f-0e31-447f-b716-7a4bb71ba30b">
+<img width="1304" alt="user qna API" src="https://github.com/A-Interview/.github/assets/132477328/36403af1-40b2-40ff-863b-aa0f0070fdc5">
+  
 </div>
 <!-- </details> -->
 
@@ -73,41 +69,38 @@ Grafana + Prometheus
 
 **cAdvisor** |**ELK**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215696300-9b67a4ed-7748-44fc-b096-4ba8ef661da5.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215697287-ac7a23f1-03ee-4878-94c7-0727b52d2b3b.png" width="7000px">
+<img src = "https://user-images.githubusercontent.com/87285536/215696300-9b67a4ed-7748-44fc-b096-4ba8ef661da5.png" width="1700px">
 
 
 
 ## 🚀  How to Start
 ```
-$ git clone --recursive https://github.com/SVTeamK-ROLLIT/docker.git
+$ git clone --recursive [https://github.com/SVTeamK-ROLLIT/docker.git](https://github.com/A-Interview/Docker.git)]
 $ cd fronted
 $ yarn 
 ```
 ### env setting
-* backend/backend/.env
+* settings/.env
 ```
-SECRET_KEY={DJANGO_SECERT_KEY}
-DEBUG=TRUE
-DATABASE_URL={DATABASE_URL}
+# backend env
+GPT_API_KEY=
 
-AWS_ACCESS_KEY_ID={AWS_ACCESS_KEY_ID}
-AWS_SECRET_ACCESS_KEY={AWS_SECRET_ACCESS_KEY}
-AWS_REGION={AWS_REGION}
-BUCKET_NAME={BUCKET_NAME}
+DJANGO_SECRET_KEY=''
+MYSQL_DATABASE=
+MYSQL_NAME=
+MYSQL_USER=
+MYSQL_PASSWORD=
+MYSQL_ROOT_PASSWORD=
+PORT=
+MYSQL_HOST=""
 
-EMAIL_ADDR={EMAIL_ADDR}
-EMAIL_PASSWORD={EMAIL_PASSWORD}
-```
+# AWS env
+MY_AWS_ACCESS_KEY =""
+MY_AWS_SECRET_ACCESS_KEY =
+AWS_STORAGE_BUCKET_NAME = ""
+AWS_S3_CUSTOM_DOMAIN = 
+FILE_URL=""
 
-* backend/db/db.env
-```
-MYSQL_DATABASE={DATABASE_NAME}
-MYSQL_ROOT_USER={DATABASE_USER}
-MYSQL_ROOT_PASSWORD={DATABASE_PASSWORD}
-```
-* frontend/.env
-```
-REACT_APP_BACKEND_URL={BACKEND_URL}
 ```
 ### Run Docker
 ```

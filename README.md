@@ -1,10 +1,8 @@
-# 📝 Introduction
-
 <div align=center>
 
-<image width=25%, height=25%, src="">
+<image width=50%, height=50%, src="https://github.com/A-Interview/.github/assets/132477328/d777ef31-a026-457e-9840-916e834a3a60">
 
-<br>최고의 AI면접 서비스 지금 시작하세요!
+<br>**🚀 최고의 AI면접 서비스 지금 시작하세요! 🚀**
 ##### URL: [AInterview.site](**https://ainterview.site/**) 
 </div>
 
@@ -64,19 +62,18 @@
 Grafana & Prometheus
 
 **Django** |**Node exporter** |
------|-----
-<img src = "https://github.com/A-Interview/.github/assets/132477328/c83cafc5-5fe0-4b89-a135-7a1d3dce90b0" width=100%>|<img src = "https://github.com/A-Interview/.github/assets/132477328/cf69b9c0-75a8-4afe-a516-cd1cadc138de" width=100%>
+:-----:|:-----:
+<img src = "https://github.com/A-Interview/.github/assets/132477328/c83cafc5-5fe0-4b89-a135-7a1d3dce90b0" width=90%>|<img src = "https://github.com/A-Interview/.github/assets/132477328/cf69b9c0-75a8-4afe-a516-cd1cadc138de" width=100% >
 
 <table>
   <tr>
     <td colspan="2" align="center"><b>cAdvisor</b></td>
   </tr>
   <tr>
-    <td><img src = "https://github.com/A-Interview/.github/assets/132477328/95583237-488e-4f79-831a-0fc9cb589c25" width=100%></td>
-    <td><img src = "https://github.com/A-Interview/.github/assets/132477328/bc251edb-eec3-4827-87ff-85e593735c67" width=100%></td>
+    <td align="center"><img src="https://github.com/A-Interview/.github/assets/132477328/95583237-488e-4f79-831a-0fc9cb589c25" width="100%" height="100%"></td>
+    <td align="center"><img src="https://github.com/A-Interview/.github/assets/132477328/bc251edb-eec3-4827-87ff-85e593735c67" width="100%"></td>
   </tr>
 </table>
-<br/>
 
 
 

@@ -111,7 +111,7 @@ $docker compose up --build
 
 ## 📂 Directory Structure
 <details>
-<summary>Click to expand</summary>
+<summary>Click</summary>
 <pre>
 <code>
   📦backend

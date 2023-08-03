@@ -23,7 +23,7 @@
 
 
 ## 💡 Tech stack 
-✔️ [The reason for selecting these tech stacks](https://www.notion.so/Tech-Stack-46306ad2d1d24789a8448e632e483336?pvs=4)
+✔️ [The reason for selecting these tech stacks](https://apple-gallon-d77.notion.site/Tech-Stack-46306ad2d1d24789a8448e632e483336?pvs=4)
 <br>
 <div align =center>
 

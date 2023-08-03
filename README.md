@@ -117,95 +117,8 @@ $docker compose up --build
 <details>
 <summary>자세히 보기</summary>
 <div>
-  ```txt
-  📦backend
-   ┣ 📂ainterview
-   ┃ ┣ 📂__pycache__
-   ┃ ┣ 📜__init__.py
-   ┃ ┣ 📜asgi.py
-   ┃ ┣ 📜celery.py
-   ┃ ┣ 📜settings.py
-   ┃ ┣ 📜urls.py
-   ┃ ┗ 📜wsgi.py
-   ┣ 📂forms
-   ┃ ┣ 📂__pycache__
-   ┃ ┣ 📂migrations
-   ┃ ┣ 📜__init__.py
-   ┃ ┣ 📜admin.py
-   ┃ ┣ 📜apps.py
-   ┃ ┣ 📜models.py
-   ┃ ┣ 📜serializers.py
-   ┃ ┣ 📜tests.py
-   ┃ ┣ 📜urls.py
-   ┃ ┗ 📜views.py
-   ┣ 📂speak_to_chat
-   ┃ ┣ 📂__pycache__
-   ┃ ┣ 📂migrations
-   ┃ ┣ 📜__init__.py
-   ┃ ┣ 📜apps.py
-   ┃ ┣ 📜interview_consumer.py
-   ┃ ┣ 📜models.py
-   ┃ ┣ 📜routing.py
-   ┃ ┣ 📜serializers.py
-   ┃ ┣ 📜tasks.py
-   ┃ ┣ 📜urls.py
-   ┃ ┗ 📜views.py
-   ┣ 📂users
-   ┃ ┣ 📂__pycache__
-   ┃ ┣ 📂migrations
-   ┃ ┣ 📜__init__.py
-   ┃ ┣ 📜admin.py
-   ┃ ┣ 📜apps.py
-   ┃ ┣ 📜models.py
-   ┃ ┣ 📜serializers.py
-   ┃ ┣ 📜tests.py
-   ┃ ┣ 📜urls.py
-   ┃ ┗ 📜views.py
-   ┣ 📜.git
-   ┣ 📜.gitignore
-   ┣ 📜Pipfile
-   ┣ 📜Pipfile.lock
-   ┣ 📜dockerfile
-   ┣ 📜manage.py
-   ┣ 📜requirements.txt
-   ┗ 📜storage.py
-  📦frontend
-   ┣ 📂public
-   ┣ 📂src
-   ┃ ┣ 📂assets
-   ┃ ┣ 📂components
-   ┃ ┣ 📂lottie
-   ┃ ┣ 📂pages
-   ┃ ┃ ┣ 📜ApplyFormPickerPage.tsx
-   ┃ ┃ ┣ 📜InterviewProgressPage.tsx
-   ┃ ┃ ┣ 📜InterviewResultPage.tsx
-   ┃ ┃ ┣ 📜LoginPage.tsx
-   ┃ ┃ ┣ 📜MainPage.tsx
-   ┃ ┃ ┣ 📜MyPage.tsx
-   ┃ ┃ ┣ 📜SignupPage.tsx
-   ┃ ┃ ┣ 📜StandBy.tsx
-   ┃ ┃ ┗ 📜WatingPage.tsx
-   ┃ ┣ 📂state
-   ┃ ┃ ┗ 📜Atom.ts
-   ┃ ┣ 📂style
-   ┃ ┃ ┗ 📜GlobalStyle.tsx
-   ┃ ┣ 📂types
-   ┃ ┃ ┗ 📜index.d.ts
-   ┃ ┣ 📜App.tsx
-   ┃ ┣ 📜index.css
-   ┃ ┗ 📜index.tsx
-   ┣ 📜.eslintrc.json
-   ┣ 📜.git
-   ┣ 📜.gitignore
-   ┣ 📜Dockerfile
-   ┣ 📜Dockerfile.prod
-   ┣ 📜README.md
-   ┣ 📜nginx.conf
-   ┣ 📜package-lock.json
-   ┣ 📜package.json
-   ┗ 📜tsconfig.json
-  📦 settings
-   ┗ 📜.env
+  ```
+
   ```
 </div>
 </details>
@@ -214,8 +127,8 @@ $docker compose up --build
 
 | Name    | <center>한석진</center> | <center>박준서</center> | <center>김미영</center> | <center>유현석</center> | <center>송유림</center> | <center>조형준</center> | <center>김가을</center>
 | ------- | --------------------------------------------- | ------------------------------------- | -------------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |
-| Profile | <center> <img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/87285536?v=4" /> </center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/107205708?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/109122419?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/103196409?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/121507763?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/107205708?v=4" />|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/107205708?v=4" />
-| role    | <center>Team Leader<br> Frontend,<br>Backend, DevOps</center>   | <center> Frontend </center>  | <center>Frontend </center>  | <center> Bakcend <br> DevOps</center> | <center>Bakcend </center> | <center>Bakcend</center>   | <center>Bakcend</center>   |
+| Profile | <center> <img width="100px" height="100px" src="https://github.com/A-Interview/.github/assets/132477328/7cd42adf-82cf-4126-a9f6-4a1f55795a17" /> </center>|<center><img width="100px" height="100px" src="https://github.com/A-Interview/.github/assets/132477328/d15ef1df-ff19-456f-85aa-e4d27ebebadc" /></center>|<center><img width="100px" height="100px" src="https://github.com/A-Interview/.github/assets/132477328/6c33c35a-caa8-44a2-a2ee-7231881e88f9" /></center>|<center><img width="100px" height="100px" src="https://github.com/A-Interview/.github/assets/132477328/8ff9fcfb-501a-473b-9e8d-d5329be31f4d" /></center>|<center><img width="100px" height="100px" src="https://github.com/A-Interview/.github/assets/132477328/6c33c35a-caa8-44a2-a2ee-7231881e88f9" /></center>|<center><img width="100px" height="100px" src="https://github.com/A-Interview/.github/assets/132477328/813cdab9-b329-41db-956c-2c2564f9fd18" />|<center><img width="100px" height="100px" src="https://github.com/A-Interview/.github/assets/132477328/455753d7-5c39-4f1a-bb46-1c1394a49f93" />
+| role    | <center>Team Leader<br> Frontend,<br>Backend, <br>DevOps</center>   | <center> Frontend </center>  | <center>Frontend </center>  | <center> Bakcend <br> DevOps</center> | <center>Bakcend </center> | <center>Bakcend</center>   | <center>Bakcend</center>   |
 GitHub | <center>[@hsjni0110](https://github.com/hsjni0110)</center> | <center>[@JSWING5267](https://github.com/JSWING5267) </center>| <center>[@miyoung12](https://github.com/miyoung12) </center>| <center>[@fiedith](https://github.com/fiedith)</center> | <center>[@youlimsongs](https://github.com/youlimsongs)</center> | <center>[@Tojaman](https://github.com/Tojaman)</center> | <center>[@fallkim](https://github.com/fallkim)</center> |
 
 

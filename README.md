@@ -4,15 +4,14 @@
 
 <image width=25%, height=25%, src="">
 
-***AINTERVIEW***
 <br>최고의 AI면접 서비스 지금 시작하세요!
-##### URL: [AINTERVIEW](**https://ainterview.site/**) 
+##### URL: [AInterview.site](**https://ainterview.site/**) 
 </div>
 
 
 ## 📒 Medium
-[Introduction](https://medium.com/@hansukjinid/development-of-interview-site-using-gpt-gpt%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A9%B4%EC%A0%91-%EC%82%AC%EC%9D%B4%ED%8A%B8-a-interview-bbff5c752a9c)
-<br>[How to write GPT prompt](https://medium.com/@hansukjinid/chat-gpt-prompt-engineering-strategy-chat-gpt-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81-676ec332ee25)
+✔️ [Introduction](https://medium.com/@hansukjinid/development-of-interview-site-using-gpt-gpt%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A9%B4%EC%A0%91-%EC%82%AC%EC%9D%B4%ED%8A%B8-a-interview-bbff5c752a9c)
+<br>✔️ [How to write GPT prompt](https://medium.com/@hansukjinid/chat-gpt-prompt-engineering-strategy-chat-gpt-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81-676ec332ee25)
 
 ## 📹 Demo
 ### 메인페이지
@@ -25,8 +24,8 @@
 
 
 
-## 💡 Tech stack
-[The reason for selecting these tech stacks](https://https://www.notion.so/Tech-Stack-46306ad2d1d24789a8448e632e483336?pvs=4)
+## 💡 Tech stack 
+✔️ [The reason for selecting these tech stacks](https://https://www.notion.so/Tech-Stack-46306ad2d1d24789a8448e632e483336?pvs=4)
 <br>
 <div align =center>
 
@@ -70,7 +69,7 @@ Grafana & Prometheus
 
 <table>
   <tr>
-    <td colspan="2" align="center">cAdvisor</td>
+    <td colspan="2" align="center"><b>cAdvisor</b></td>
   </tr>
   <tr>
     <td><img src = "https://github.com/A-Interview/.github/assets/132477328/95583237-488e-4f79-831a-0fc9cb589c25" width=100%></td>
@@ -82,6 +81,7 @@ Grafana & Prometheus
 
 
 ## 🚀 How to Start
+### Clone Repository 
 ```
 $ git clone --recursive https://github.com/A-Interview/Docker.git
 ```
@@ -118,59 +118,94 @@ $docker compose up --build
 <summary>Click to expand</summary>
 <pre>
 <code>
-backend
- ├─ .github
- ├─ __pycache__
- ├─ ainterview
- ┃  ├─ __pycache__
- ┃  ├─ __init__.py
- ┃  ├─ asgi.py
- ┃  ├─ celery.py
- ┃  ├─ settings.py
- ┃  ├─ urls.py
- ┃  └─ wsgi.py
- ├─ forms
- ┃  ├─ __pycache__
- ┃  ├─ migrations
- ┃  ├─ __init__.py
- ┃  ├─ admin.py
- ┃  ├─ apps.py
- ┃  ├─ models.py
- ┃  ├─ serializers.py
- ┃  ├─ tests.py
- ┃  ├─ urls.py
- ┃  └─ views.py
- ├─ speak_to_chat
- ┃  ├─ __pycache__
- ┃  ├─ migrations
- ┃  ├─ __init__.py
- ┃  ├─ apps.py
- ┃  ├─ interview_consumer.py
- ┃  ├─ models.py
- ┃  ├─ routing.py
- ┃  ├─ serializers.py
- ┃  ├─ tasks.py
- ┃  ├─ urls.py
- ┃  └─ views.py
- ├─ users
- ┃  ├─ __pycache__
- ┃  ├─ migrations
- ┃  ├─ __init__.py
- ┃  ├─ admin.py
- ┃  ├─ apps.py
- ┃  ├─ models.py
- ┃  ├─ serializers.py
- ┃  ├─ tests.py
- ┃  ├─ urls.py
- ┃  └─ views.py
- ├─ .git
- ├─ .gitignore
- ├─ Pipfile
- ├─ Pipfile.lock
- ├─ dockerfile
- ├─ manage.py
- ├─ requirements.txt
- └─ storage.py
+  📦backend
+   ┣ 📂ainterview
+   ┃ ┣ 📂__pycache__
+   ┃ ┣ 📜__init__.py
+   ┃ ┣ 📜asgi.py
+   ┃ ┣ 📜celery.py
+   ┃ ┣ 📜settings.py
+   ┃ ┣ 📜urls.py
+   ┃ ┗ 📜wsgi.py
+   ┣ 📂forms
+   ┃ ┣ 📂__pycache__
+   ┃ ┣ 📂migrations
+   ┃ ┣ 📜__init__.py
+   ┃ ┣ 📜admin.py
+   ┃ ┣ 📜apps.py
+   ┃ ┣ 📜models.py
+   ┃ ┣ 📜serializers.py
+   ┃ ┣ 📜tests.py
+   ┃ ┣ 📜urls.py
+   ┃ ┗ 📜views.py
+   ┣ 📂speak_to_chat
+   ┃ ┣ 📂__pycache__
+   ┃ ┣ 📂migrations
+   ┃ ┣ 📜__init__.py
+   ┃ ┣ 📜apps.py
+   ┃ ┣ 📜interview_consumer.py
+   ┃ ┣ 📜models.py
+   ┃ ┣ 📜routing.py
+   ┃ ┣ 📜serializers.py
+   ┃ ┣ 📜tasks.py
+   ┃ ┣ 📜urls.py
+   ┃ ┗ 📜views.py
+   ┣ 📂users
+   ┃ ┣ 📂__pycache__
+   ┃ ┣ 📂migrations
+   ┃ ┣ 📜__init__.py
+   ┃ ┣ 📜admin.py
+   ┃ ┣ 📜apps.py
+   ┃ ┣ 📜models.py
+   ┃ ┣ 📜serializers.py
+   ┃ ┣ 📜tests.py
+   ┃ ┣ 📜urls.py
+   ┃ ┗ 📜views.py
+   ┣ 📜.git
+   ┣ 📜.gitignore
+   ┣ 📜Pipfile
+   ┣ 📜Pipfile.lock
+   ┣ 📜dockerfile
+   ┣ 📜manage.py
+   ┣ 📜requirements.txt
+   ┗ 📜storage.py
+  📦frontend
+   ┣ 📂public
+   ┣ 📂src
+   ┃ ┣ 📂assets
+   ┃ ┣ 📂components
+   ┃ ┣ 📂lottie
+   ┃ ┣ 📂pages
+   ┃ ┃ ┣ 📜ApplyFormPickerPage.tsx
+   ┃ ┃ ┣ 📜InterviewProgressPage.tsx
+   ┃ ┃ ┣ 📜InterviewResultPage.tsx
+   ┃ ┃ ┣ 📜LoginPage.tsx
+   ┃ ┃ ┣ 📜MainPage.tsx
+   ┃ ┃ ┣ 📜MyPage.tsx
+   ┃ ┃ ┣ 📜SignupPage.tsx
+   ┃ ┃ ┣ 📜StandBy.tsx
+   ┃ ┃ ┗ 📜WatingPage.tsx
+   ┃ ┣ 📂state
+   ┃ ┃ ┗ 📜Atom.ts
+   ┃ ┣ 📂style
+   ┃ ┃ ┗ 📜GlobalStyle.tsx
+   ┃ ┣ 📂types
+   ┃ ┃ ┗ 📜index.d.ts
+   ┃ ┣ 📜App.tsx
+   ┃ ┣ 📜index.css
+   ┃ ┗ 📜index.tsx
+   ┣ 📜.eslintrc.json
+   ┣ 📜.git
+   ┣ 📜.gitignore
+   ┣ 📜Dockerfile
+   ┣ 📜Dockerfile.prod
+   ┣ 📜README.md
+   ┣ 📜nginx.conf
+   ┣ 📜package-lock.json
+   ┣ 📜package.json
+   ┗ 📜tsconfig.json
+  📦 settings
+   ┗ 📜.env
 </code>
 </pre>
 </details>

@@ -2,30 +2,32 @@
 
 <div align=center>
 
-<image width=25%, height=25%, src="https://user-images.githubusercontent.com/87285536/215344050-6453724d-777d-47b9-bae2-e7a312d341a7.png">
+<image width=25%, height=25%, src="">
 
 ***AINTERVIEW***
 <br>최고의 AI면접 서비스 지금 시작하세요!
-#####  URL: [AINTERVIEW](**https://ainterview.site/**) 
+##### URL: [AINTERVIEW](**https://ainterview.site/**) 
 </div>
 
 
 ## 📒 Medium
-[Introduction](https://medium.com/@rabbit_72/puppy-classification-web-service-with-ai-588be35cded8)
+[Introduction](https://medium.com/@hansukjinid/development-of-interview-site-using-gpt-gpt%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A9%B4%EC%A0%91-%EC%82%AC%EC%9D%B4%ED%8A%B8-a-interview-bbff5c752a9c)
+<br>[How to write GPT prompt](https://medium.com/@hansukjinid/chat-gpt-prompt-engineering-strategy-chat-gpt-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81-676ec332ee25)
 
 ## 📹 Demo
 ### 메인페이지
-  <img width="1470" alt="search image" src="https://user-images.githubusercontent.com/77673029/216435152-cb596cb6-323c-459b-9d24-9e4834067d34.gif">
+  <img width="1470" alt="search image" src="">
 
 
 
 ## 💻 System Architechture
-![시스템 아키텍쳐](https://github.com/A-Interview/.github/assets/132477328/dbd8e833-6c4e-4732-9860-11d4f84d1f8e)
+<img alt="system architecture" src="https://github.com/A-Interview/.github/assets/132477328/f3456c26-1e03-469e-9d85-d801d9f03490">
 
 
 
 ## 💡 Tech stack
-
+[The reason for selecting these tech stacks](https://https://www.notion.so/Tech-Stack-46306ad2d1d24789a8448e632e483336?pvs=4)
+<br>
 <div align =center>
 
 분야| 사용 기술|
@@ -41,7 +43,7 @@
 ## 💾 ERD
 
 <!--<img src="https://github.com/A-Interview/.github/assets/132477328/cd7cba29-4bbe-4194-8da0-4387eba5b13d">-->
-![AInterview-ERD](https://github.com/A-Interview/.github/assets/132477328/cd7cba29-4bbe-4194-8da0-4387eba5b13d)
+<img width="1145" alt="AInterview ERD" src="https://github.com/A-Interview/.github/assets/132477328/e77c6298-4927-4f93-bb8c-94799fbc25b1">
 - https://www.erdcloud.com/d/x4WbrcTfqujMLmvtY
 
 
@@ -76,8 +78,6 @@ Grafana & Prometheus
   </tr>
 </table>
 <br/>
-- **Prometheus**, **Grafana**
-- **node-exporter**
 
 
 

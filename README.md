@@ -1,6 +1,6 @@
 <div align=center>
+<image width=50%, height=50%, src="https://github.com/A-Interview/.github/assets/132477328/42d28b62-63b9-44ca-b9e2-5f70ab59c309">
 
-<image width=50%, height=50%, src="https://github.com/A-Interview/.github/assets/132477328/d777ef31-a026-457e-9840-916e834a3a60">
 
 <br>**🚀 최고의 AI면접 서비스 지금 시작하세요! 🚀**
 ##### URL: [AInterview.site](**https://ainterview.site/**) 
@@ -12,8 +12,20 @@
 <br>✔️ [How to write GPT prompt](https://medium.com/@hansukjinid/chat-gpt-prompt-engineering-strategy-chat-gpt-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81-676ec332ee25)
 
 ## 📹 Demo
-### 메인페이지
-  <img width="1470" alt="search image" src="">
+### 🪐 메인페이지
+  <img width="1470" alt="search image" src="https://github.com/A-Interview/.github/assets/132477328/57f62cb0-9b33-4779-aa1d-18f4d1357a5a">
+
+### 🪐 지원서 및 면접개수 선택페이지
+  <img width="1470" alt="search image" src="https://github.com/A-Interview/.github/assets/132477328/8c88dad3-8d7c-4902-a9ed-a64b115a6d7c">
+
+### 🪐 면접진행페이지
+  <img width="1470" alt="search image" src="https://github.com/A-Interview/.github/assets/132477328/f86316a2-44c5-4ae5-80d1-777af4927a43">
+
+### 🪐 면접결과페이지
+  <img width="1470" alt="search image" src="https://github.com/A-Interview/.github/assets/132477328/183dab53-83d9-46a4-9a90-c5382316d3ab">
+
+### 🪐 마이페이지
+  <img width="1470" alt="search image" src="https://github.com/A-Interview/.github/assets/132477328/c910a746-9bbe-4db0-a7bc-29beffb07752">
 
 
 
